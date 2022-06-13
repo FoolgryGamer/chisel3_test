@@ -29,6 +29,7 @@ class GCD extends Module {
     y := io.value2
   }
 
+
   io.outputGCD := x
   io.outputValid := y === 0.U
 }
